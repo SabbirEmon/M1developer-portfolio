@@ -1,0 +1,48 @@
+/*google font */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-tittle{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text-primary{
+    color: #FD6E0A;;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.btn-primary{
+    color: var(--White-Color, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    padding: 15px 35px;
+    
+}
