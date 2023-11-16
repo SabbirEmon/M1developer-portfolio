@@ -7,7 +7,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 .nav-tittle{
     color: var(--Dark-01, #181818);
@@ -45,4 +45,19 @@ nav a{
     color: #FFFFFF;
     padding: 15px 35px;
     
+    
+}
+/* header style */
+.header-class{
+    background-color:#FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.header-pic{
+    width: 570px;
+
 }
