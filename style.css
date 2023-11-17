@@ -50,6 +50,10 @@ nav a{
 /* header style */
 .header-class{
     background-color:#FFF8F3;
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: top-left;
+    
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -205,4 +209,13 @@ footer{
     border-radius: 10px;
     border: 0px;
     width: 100%;
+}
+.btn-primary{
+    color: var(--White-Color, #FFF);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
